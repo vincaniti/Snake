@@ -1,0 +1,41 @@
+body {
+    margin-right: 10rem;
+    margin-left: 10rem;
+    background-color: darkslategray;
+}
+#board {
+    display: flex;
+    justify-content: space-around;
+}
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+#game-board {
+    background-color: darkcyan;
+    border: solid 2px black;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+caption {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+thead {
+    border-bottom: solid 3px black;
+}
+
+th, td {
+    padding: 20px;
+    border-right: solid 3px black;
+}
+
+tbody {
+    text-align: center;
+}
